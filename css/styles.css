@@ -216,15 +216,6 @@ address {
   margin-bottom: 8px;
 }
 
-.menu-item-icon {
-  /* fill: transparent; */
-  /* border: 1px solid #8e8f99; */
-  /* border-radius: 4px; */
-
-  /* height: 112px;
-  background: #f4f4fd; */
-}
-
 .menu-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -275,10 +266,6 @@ address {
   border-radius: 0 0 4px 4px;
 }
 
-.team-item-foto {
-  /* margin-bottom: 32px; */
-}
-
 .team-item-subtitle {
   padding: 32px 0;
 }
@@ -320,10 +307,6 @@ address {
   border-radius: 50%;
 }
 
-.team-icon-link:hover {
-  /* fill: #404bbf; */
-}
-
 .icon-icon {
   fill: #4d5ae5;
 }
@@ -359,9 +342,6 @@ address {
 
 .portfolio-item {
   width: calc((100% - 2 * 24px) / 3);
-}
-
-.portfolio-images {
 }
 
 .portfolio-item-subtitle {
