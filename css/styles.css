@@ -142,6 +142,14 @@ address {
   background-color: #2e2f42;
   height: 600px;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -195,6 +203,15 @@ address {
   width: calc((100% - 3 * 24px) / 4);
 }
 
+.menu-item-icon {
+  fill: transparent;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+}
+
 .menu-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -219,6 +236,8 @@ address {
 }
 .team-item {
   background-color: #ffffff;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-title {
   font-weight: 700;
@@ -268,6 +287,38 @@ address {
   color: #434455;
   text-align: center;
 }
+
+.team-icon-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-icon-item {
+  width: 40px;
+  height: 40px;
+}
+
+.team-icon-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.team-icon-link:hover {
+  /* fill: #404bbf; */
+}
+
+.icon-icon {
+  fill: #4d5ae5;
+}
+
+.team-icon-link:hover .icon-icon {
+  fill: #404bbf;
+}
+
 /*-----------------------*/
 
 /*--------PORTFOLIO------*/
@@ -331,13 +382,11 @@ address {
 
 .footer-link-logo {
   display: inline-block;
-  /* padding-top: 100px; */
   margin-bottom: 16px;
 }
 
 .footer-logo-part {
   color: #f4f4fd;
-  /* padding-top: 100px; */
   margin-bottom: 16px;
 }
 
@@ -347,6 +396,5 @@ address {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  /* padding-bottom: 100px; */
 }
 /*-----------------------*/
